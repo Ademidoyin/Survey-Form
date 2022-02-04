@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(pexels-fauxels-3183197.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 225vh;
+}
+
+header {
+  width: 100%;
+  height: 7vh;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#head-span {
+  margin-top: 0.2rem;
+  margin-left: 1.5rem;
+  font-size: 1rem;
+}
+
+header nav {
+  margin-right: 1.5rem;
+  margin-top: 0.7rem;
+}
+
+.head-title {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+}
+
+.head-title h1 {
+  font-size: 2.1rem;
+}
+
+.head-title p {
+  font-size: 1.2rem;
+  padding-top: 0.8rem;
+}
+
+form {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.5);
+  width: 50%;
+  height: auto;
+  margin: auto;
+  border-radius: 0.5rem;
+  padding: 2rem 1rem 2rem 2rem;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 900px) {
+  form {
+    width: 98%;
+  }
+
+  header {
+    display: none;
+  }
+
+  body {
+    height: 210vh;
+  }
+}
+
+form p {
+  margin-bottom: 0.5rem;
+}
+
+input[type="text"] {
+  width: 98%;
+  padding: 0.6rem 0.4rem;
+  border-radius: 0.3rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid #ffffff;
+}
+
+input:focus {
+  outline: none;
+}
+
+select {
+  margin: 0.5rem 0;
+  width: 98%;
+  padding: 0.6rem 0.4rem;
+  border-radius: 0.3rem;
+}
+
+form #suggest {
+  padding-top: 1rem;
+}
+
+#comment {
+  padding-bottom: 5rem;
+}
+
+input[type="submit"] {
+  width: 98%;
+  padding: 0.7rem 0;
+  margin-top: 0.5rem;
+  background: rgb(72, 167, 63);
+  color: #fff;
+  outline: none;
+  border: 1px solid rgb(72, 167, 63);
+}
